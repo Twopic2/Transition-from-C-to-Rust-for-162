@@ -84,7 +84,7 @@ So, instead of asking AI for help, ask Clippy!
 
 And now that you've gotten through the basics, let's get to coding in Rust!
 
-## Basics 3.1-3.3
+## Basics
 
 ### Variables
 
@@ -105,7 +105,7 @@ fn main() {
 }
 ```
 
-### Data Types/Enums/Structs 3.2/5.1/6.1
+### Data Types/Enums/Structs
 
 Rust has unsigned and signed integers: `u8-u128` and `i8-i128`. It also has floats, `f8-f64`, and booleans, `true` and `false`.
 
@@ -135,7 +135,7 @@ enum IpAddrKind {
 }
 ```
 
-### Control Flow 3.5/3.
+### Control Flow
 
 Rust lets you use `if` and `match` EXPRESSIONS (this is where pattern matching comes into play) to control your code's logic.
 
