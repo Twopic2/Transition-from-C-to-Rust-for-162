@@ -347,9 +347,7 @@ This is how Rust ensures memory safety, and I believe it's currently the only la
 
 In our previous example, we were trying to access a value that had gone out of scope, leading to a dangling reference. This is bad, and you should avoid doing it. This is even highlighted in the Rust book:
 
-```
 In languages with pointers, it’s easy to erroneously create a dangling pointer—a pointer that references a location in memory that may have been given to someone else—by freeing some memory while preserving a pointer to that memory. In Rust, by contrast, the compiler guarantees that references will never be dangling references: If you have a reference to some data, the compiler will ensure that the data will not go out of scope before the reference to the data does.
-```
 
 This is the main reason why so many people love Rust. Its ability to catch dangling references saves countless hours of debugging.
 
